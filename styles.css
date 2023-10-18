@@ -1,0 +1,11 @@
+/* header section*/
+.jumbotron{
+    padding: 2rem irem;
+    background-color:#e9ecef;
+
+}
+
+/* You can add global styles to this file, and also import other style files */
+.container{
+    max-width: 900px;
+}
