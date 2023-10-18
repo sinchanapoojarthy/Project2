@@ -1,0 +1,149 @@
+/* navigation section*/
+<nav class="navbar-expamd-md border-bottom mb-3">
+<div class="container">
+<ul class="nav justify-content-center">
+<li class="nav-item">
+<a class="nav-link text-secondary" routerLink="/Home" routerLinkActive="text-dark">Home</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link text-secondary" routerLink="/Portfolio"routerLinkActive="text-dark">Portfolio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-secondary" routerLink="/Resume"routerLinkActive="text-dark">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-secondary" routerLink="Contact"routerLinkActive="text-dark">Contact</a>
+            </li>
+</ul>
+</div>
+</nav>
+/* Contact section*/
+
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            margin: 0;
+        }
+
+
+        .contact-details {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-details">
+        <p>For more details</p>
+        <p>contact:7454663727</p>
+        <p>Email: <a href="mailto:sinchana@email.com">@email.com</a></p>
+        <p>Place: Bengaluru</p>
+    </div>
+</body>
+</html>
+        /* header section*/
+<div class="jumbotron">
+    <div class="text-center">
+        <h1 class="display-4">SINCHANA POOJARTHY</h1>
+        <h3>Web Development Intern</h3>
+    </div>
+</div>
+        /* Home section*/
+<div class="container">
+<div class="row">
+    <div class="col-lg shadow border m-1">
+<div class="text-center">
+    <h2>About Me</h2>
+    <img src="../../assets/images.jpg/my_pic.jpg" alt="profile picture" width="256" height="256" class="rounded-circle"></div>
+<p>I'm currently a student at New Horizon College of Engineering, where I'm passionately studying Information Science And Engineering. Simultaneously, I'm gaining practical experience in web development through my internship at VaultsofCode. This blend of academia and real-world application has prepared me to tackle the dynamic challenges of the tech industry.</p>   
+</div>
+</div>
+</div>
+ /* Portfolio  section*/
+ <div class="container">
+    <app-project-card></app-project-card>
+</div>
+ /* project card section*/
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow text-center" style="max-width: 350px; min-width: 350px;">
+                <div class="class-body">
+                    <h5 class="card-title">Designing Web Page</h5>
+                    <p class="card-text">Recreating the VaultsofCode webpage and making it look more appealing</p>
+                    <button class="btn btn-primary">View More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card shadow text-center" style="max-width: 350px; min-width: 350px;">
+                <div class="class-body">
+                    <h5 class="card-title">Portfolio Creation</h5>
+                    <p class="card-text">Creation of portfolio using Angular CLI framework.</p>
+                    <button class="btn btn-primary">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow text-center" style="max-width: 350px; min-width: 350px;">
+                <div class="class-body">
+                    <h5 class="card-title">Deburging</h5>
+                    <p class="card-text">Correction of errors present in the given code snippets.</p>
+                    <button class="btn btn-primary">View More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card shadow text-center" style="max-width: 350px; min-width: 350px;">
+                <div class="class-body">
+                    <h5 class="card-title">Web development</h5>
+                    <p class="card-text">Creation of web page make it responsive and look appealing.</p>
+                    <button class="btn btn-primary">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ /* Resume section*/
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width:18rem; margin:0 auto;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Education Details</h5>
+         <p  class="card-text text-right">
+            <li>SSLC:Viveka English Medium High School,Udupi.</li>
+            <li>PUC:Viveka Pre-university,Udupi.</li>
+            <li>B.E:New Horizon College of Engineering,Bengaluru</li></p>
+            <a href="#" class="btn btn-primary btn-sm d-block mx-auto">View Resume</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   /* app component section*/
+ <div class="shadow-sm">
+    <app-header></app-header>
+    <app-nav></app-nav>
+
+</div>
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
